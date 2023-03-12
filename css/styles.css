@@ -28,7 +28,6 @@ img {
 .container {
     width: 1158px;
     padding: 0 15px;
-    /* outline: solid #ff0000; */
     margin: 0 auto;
 }
 
@@ -38,7 +37,6 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    /* font-size: 16px; */
 }
 
 .list {
@@ -56,7 +54,6 @@ body {
     font-size: 18px;
     line-height: 1.17;
     margin: 0 76px 0 0;
-    height: 24px;
 }
 
 .works-img:active {
@@ -79,7 +76,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     color: var(--second-color);
-    padding: 23px 0;
+    padding: 24px 0;
 }
 
 .link {
@@ -95,23 +92,12 @@ body {
 }
 
 .hero {
-    /* display: flex; */
     background-color: var(--second-color);
     padding-top: 188px;
     padding-bottom: 188px;
-
-    /* flex-direction: column;
-    align-items: center; */
-    /* max-width: 1440px; */
-    /* background-image: linear-gradient(
-            to right,
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/people-office.jpg); */
 }
 
-.hero .hero-slogan {
+.hero-slogan {
     font-size: 56px;
     color: var(--background-color);
     text-transform: capitalize;
@@ -143,10 +129,6 @@ body {
     margin-bottom: 72px;
 }
 
-/* .ours-works a {
-    color: var(--second-color);
-} */
-
 .order-button:hover,
 .order-button:focus {
     background-color: var(--second-accent-color);
@@ -177,7 +159,7 @@ body {
 
 .categories-btn {
     color: var(--accent-color);
-    background-color: var(--light-gray-color--main-white-color);
+    background-color: var(--light-gray-color);
     padding: 12px 24px;
     border: 1px solid var(--main-white-color);
 }
@@ -201,20 +183,12 @@ body {
 .works-item .text {
     line-height: 1.5;
     color: var(--main-color);
-    /* text-align: center; */
 }
-
-.team-card .text {
-    /* padding-bottom: 32px; */
-}
-/* .advantages-item .text {
-    margin-top: 8px;
-} */
 
 .motto {
     color: var(--light-gray-color);
     margin-top: 16px;
-    margin-right: 864px;
+    width: 264px;
 }
 
 .contacts-list a {
@@ -234,7 +208,6 @@ body {
     background-color: var(--light-gray-color);
     padding-top: 120px;
     padding-bottom: 120px;
-    /* align-items: center; */
 }
 
 .team-list {
@@ -244,14 +217,12 @@ body {
 .team-card:not(:last-child) {
     margin-right: 24px;
 }
-.team-name {
-}
 
 .team-card {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    background-color: #fff;
+    background-color: var(--background-color);
 }
 .visually-hidden {
     position: absolute;
@@ -266,33 +237,27 @@ body {
     overflow: hidden;
 }
 
-.heater-wrap {
+.nav-block {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
-    /* align-content: center; */
+}
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header {
     border-bottom: 1px solid #e7e9fc;
 }
 
-/* header,
-section,
-footer {
-    outline: solid blue;
-} */
-
 .site-nav,
 .contacts-list {
     display: flex;
-    /* align-items: baseline; */
 }
 
-.contacts-list {
-    margin-left: 332px;
-}
-.site-nav-item {
+address {
+    margin-left: auto;
 }
 
 .site-nav-item:not(:last-child) {
@@ -301,8 +266,6 @@ footer {
 
 .site-nav .link {
     display: block;
-    /* padding-top: 10px;
-    padding-bottom: 10px; */
 }
 
 .site-nav {
@@ -313,8 +276,6 @@ footer {
 
 .advantages-list {
     display: flex;
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
 }
 .advantages-block {
     padding-top: 120px;
@@ -328,10 +289,6 @@ footer {
     margin-right: 24px;
 }
 
-.works-slogan {
-    /* margin-bottom: 72px; */
-}
-
 .works-list {
     display: flex;
 }
@@ -343,7 +300,6 @@ footer {
 .categories-btn-list {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .categories-btn-item:not(:last-child) {
@@ -351,9 +307,9 @@ footer {
 }
 
 .text-container {
-    margin-top: 32px;
-    margin-bottom: 32px;
-    text-align: center;
+    padding: 32px 0 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .works-items {
@@ -366,14 +322,7 @@ footer {
     margin-right: 24px;
 }
 
-.works-item {
-    display: flex;
-    outline: 1px solid #e7e9fc;
-}
-
 .works-item:nth-child(n + 4) {
-    display: flex;
-    outline: 1px solid #e7e9fc;
     margin-top: 48px;
 }
 
