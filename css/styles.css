@@ -312,6 +312,11 @@ address {
     border-top: none;
 }
 
+.team-block .text-container {
+    padding: 32px 0;
+    text-align: center;
+}
+
 .works-items {
     margin-top: 72px;
     display: flex;
